@@ -1,5 +1,5 @@
 html {
-    background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=50);
+    background: #018DED url('./assets/clock-bg.jpg');
     background-size: cover;
     font-family: 'helvetica neue';
     text-align: center;
@@ -40,7 +40,7 @@ html {
   .hand {
     width: 50%;
     height: 6px;
-    background: black;
+    background: white;
     position: absolute;
     top: 50%;
     transform: rotate(90deg); /* rotate all the divs so they start facing 12 o clock */
